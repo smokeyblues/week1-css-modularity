@@ -52,6 +52,10 @@
   text-decoration: none;
 }
 
+.button:hover {
+  background: DarkOrchid;
+}
+
 .medium {
   display: inline-block;
   border-radius: 5px;
@@ -59,12 +63,17 @@
   width: 150px;
   height: 30px;
   text-align: center;
+  
   vertical-align: middle;
-  line-height: 30px;
+  /* line-height: 30px; */
   color: white;
   font-size: 0.75em;
   text-decoration: none;
   font-family: sans-serif;
+  position: relative;
+  top: 50%;
+  border: none;
+  
 }
 
 .medium:hover {
@@ -75,7 +84,10 @@
   color: white;
   font-size: 1em;
   text-decoration: none;
-  position: static;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .small {
@@ -87,6 +99,10 @@
   text-align: center;
   vertical-align: middle;
   line-height: 17px;
+}
+
+.small:hover {
+  background: DarkOrchid;
 }
 
 .small a {
@@ -102,6 +118,42 @@
 .part5 li {
   float: left;
 }
+
+ol.pagination {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+ol.pagination li {
+  display: inline-block;
+  font-family: sans-serif;
+  padding: 10px;
+  border-bottom: 2px solid grey;
+}
+
+ol.pagination .other-pages {
+  border-bottom: 3px solid black;
+
+}
+
+ol.pagination li a {
+  text-decoration: none;
+}
+
+.comment {
+  overflow: hidden;
+}
+
+.part7-float {
+  float: left;
+}
+
+.subcomment {
+  display: block;
+  padding-left: 3px;
+}
+
 
 
 

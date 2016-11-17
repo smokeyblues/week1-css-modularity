@@ -145,14 +145,14 @@ ol.pagination li a {
   overflow: hidden;
 }
 
-.part7-float {
+.comment-img {
   display: block;
   float: left;
   padding-right: 7px;
 }
 
 .subcomment {
-  padding-top: 10px;
+  padding-top: 30px;
   margin-left: 90px;
 }
 

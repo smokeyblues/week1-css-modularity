@@ -24,11 +24,11 @@
   padding-bottom: 75px;
 }
 
-.part3 {
+.horizontal-list {
   list-style-type: none;
 }
 
-.part3 li {
+.horizontal-list li {
   float: left;
 }
 
@@ -152,8 +152,38 @@ ol.pagination li a {
 }
 
 .subcomment {
-  padding-top: 20px;
+  padding-top: 10px;
   margin-left: 90px;
+}
+
+.tabs {
+  overflow: hidden;
+  display: block;
+}
+
+.tabs li {
+  margin-right: 5px;
+  padding: 10px 30px;
+  border: solid;
+  border-width: 1px 1px 0px 1px;
+  border-color: gray;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.tabs a {
+  text-decoration: none;
+}
+
+.tabs-content {
+  padding: 10px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 25px;
+}
+
+.active {
+  background-color: lightblue;
 }
 
 
